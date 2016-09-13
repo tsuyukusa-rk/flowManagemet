@@ -2,7 +2,7 @@ const srcDir = 'assets';
 const libDir = 'build';
 const webpack = require('webpack');
 
-var webpackSetting = {
+const webpackSetting = {
   entry: `./${srcDir}/js/app.js`,
   output: {
     filename: 'app.js'
@@ -10,7 +10,7 @@ var webpackSetting = {
   resolve: {
     extensions: ['', '.js']
   },
-  module: {  // ここを追�?
+  module: {
     loaders: [
       { test: /\.html$/, loader: 'html?minimize' },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
