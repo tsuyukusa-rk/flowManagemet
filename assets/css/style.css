@@ -1,0 +1,204 @@
+/* loading */
+.loading {
+	display: none;
+	background: url("../images/loading.gif") no-repeat 50% 46% #ffffff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+}
+/* header */
+header {
+	border-bottom: 1px solid #cccccc;
+	padding: 20px;
+	position: relative;
+}
+.iconMenu {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 26px;
+	cursor: pointer;
+}
+.headerNav {
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 67px;
+	right: 0;
+	text-align: right;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 3px #eeeeee;
+}
+.headerNav li {
+	border-bottom: 1px solid #cccccc;
+}
+.headerNav li a {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+	text-align: center;
+}
+/* contents */
+section {
+
+}
+/* top */
+.layout_top {
+
+}
+.layout_top_inner {
+	margin: 30px 30px 100px;
+}
+.layout_top h2 {
+	margin: 0 0 30px;
+}
+.topImg {
+	width: 100%;
+}
+/* nodeWget */
+.layout_nodeWget {
+	margin: 30px 30px 100px;
+}
+.form_nodeWget table {
+	width: 100%;
+}
+.form_nodeWget th,
+.form_nodeWget td {
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.form_nodeWget th {
+	width: 12%;
+	font-weight: bold;
+}
+.form_nodeWget td {
+	width: 86%;
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.form_nodeWget td.separate {
+	border: none;
+	width: 2%;
+}
+.form_nodeWget td label {
+	padding-right: 5px;
+}
+.form_nodeWget td input + label {
+	padding-left: 20px;
+}
+.form_nodeWget td input[type=text] {
+	width: 70%;
+	height: 20px;
+}
+.form_nodeWget_submit {
+	width: 100%;
+	margin: 20px 0 0;
+	font-size: 14px;
+	cursor: pointer;
+	background-color: #444444;
+	height: 35px;
+	border: none;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+}
+.form_nodeWget_clear {
+	width: 20%;
+	margin: 15px auto 0;
+	font-size: 13px;
+	cursor: pointer;
+	background-color: #999999;
+	height: 30px;
+	border: none;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+}
+.form_nodeWget_results_box {
+	margin: 30px 0 0;
+}
+.form_nodeWget_results {
+	border: 1px solid #cccccc;
+	height: 500px;
+	overflow: auto;
+	margin: 20px 0 0;
+	line-height: 1.6;
+}
+/* diff */
+.diff {
+	margin: 30px 30px 100px;
+}
+.dropBox {
+	border: 1px solid #cccccc;
+	margin: 20px 0 0;
+	padding: 8px;
+	min-height: 14px;
+	color: #aaaaaa;
+}
+.dropBox.active {
+	color: #333333;
+}
+.dropResults {
+	display: none;
+	border: 1px solid #cccccc;
+	margin: 20px 0 0;
+	padding: 10px;
+	line-height: 1.4;
+}
+.compareBox {
+	display: none;
+	overflow: scroll;
+	width: 960px;
+	height: auto;
+	margin: 30px 0 0;
+}
+.compare {
+	width: 960px;
+	height: auto;
+}
+.CodeMirror-gutter-elt {
+	left: -35px !important;
+}
+.CodeMirror {
+	height: auto;
+}
+.diffBtnBox {
+	margin: 20px 0 0;
+}
+.diffBtnBox input {
+	width: 48.6%;
+	height: 30px;
+	background-color: #444444;
+	border: 1px solid #cccccc;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.diffBtnBox .btnCompare.disabled {
+	background-color: #dddddd;
+	cursor: default;
+}
+.diffBtnBox .btnCompare {
+	margin: 0 2% 0 0;
+}
+.diffBtnBox .btnCompareClear {
+	background-color: #999999;
+}

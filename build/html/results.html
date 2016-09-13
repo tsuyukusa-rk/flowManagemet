@@ -1,0 +1,28 @@
+<table>
+	<tbody>
+		<% if(error.length !== 0){ %>
+			<% _.each(error, function(item, i) { %>
+				<tr>
+					<th>error</th>
+					<td><%= item %></td>
+				</tr>
+			<% }); %>
+		<% } %>
+		<tr>
+			<th>indexDir</th>
+			<td><%= index.dir %></td>
+		</tr>
+		<tr>
+			<th>indexEncoding</th>
+			<td><%= index.encoding.encoding %></td>
+		</tr>
+		<% if(list.length !== 0){ %>
+			<% _.each(list, function(item, i) { %>
+				<tr>
+					<th>list_<%= i %></th>
+					<td><%= item[0] %><br><%= item[1] %></td>
+				</tr>
+			<% }); %>
+		<% } %>
+	</tbody>
+</table>
